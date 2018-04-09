@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 url = input('Enter the link -')
 count = input('Enter Count -')
 position = input('Enter Position -')
-
+#bs4 has lxml and other parsers too!!!
 
 for i in range(int(count)):
     html = urllib.request.urlopen(url).read()
